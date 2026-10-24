@@ -4,8 +4,8 @@ An operations dashboard for a small fleet (6 vehicles around Kochi): where vehic
 
 ## Live demo
 
-- **URL:** `PASTE_VERCEL_URL_HERE`
-- **Reviewer login:** `PASTE_EMAIL_HERE` / `PASTE_PASSWORD_HERE`
+- **URL:** `https://bytebeam-fleet-dashboard-xi.vercel.app/`
+- **Reviewer login:** `reviewer@bytebeam-demo.com` / `VITE_DEMO_*`
 
 No Supabase access is needed to review the app: on the login page, click **Use the reviewer account** (or type the credentials above) to sign in. The reviewer account is read-only.
 
