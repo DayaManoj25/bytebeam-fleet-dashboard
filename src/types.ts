@@ -1,0 +1,3 @@
+export type VehicleStatus='Moving'|'Idle'|'Offline'|'Attention';
+export interface Vehicle {id:string; name:string; plate:string; driver:string; status:VehicleStatus; lat:number; lng:number; speed:number; fuel:number; battery:number; lastSeen:string; distanceToday:number; tripsToday:number; ignition:boolean; health:number;}
+export interface Trip {id:string; vehicle_id:string; vehicle:string; driver:string; start:string; end:string; distance:number; duration:number; avgSpeed:number; maxSpeed:number; stops:number; overspeed:number; startLat:number; startLng:number; endLat:number; endLng:number; date:string;}
